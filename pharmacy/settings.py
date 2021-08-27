@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-s8%c5vjkcpa&0#y$a3=&jbu=nmv3sgg07sd9f^1k-rfyhqs61v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['invoicing-api1.herokuapp.com','127.0.0.1']
 
 
 # Application definition
