@@ -7,6 +7,7 @@ class Products(models.Model):
     price = models.FloatField()
     qtty = models.IntegerField()
     descr = models.TextField()
+    img = models.FileField(upload_to='media/', null=True)
 
     def __str__(self) :
         return self.name 
